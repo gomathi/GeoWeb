@@ -1,6 +1,8 @@
 package com.geoweb.store;
 
-import com.geoweb.store.interfaces.UserStore;
+import java.util.List;
+import java.util.Map;
+
 
 public class UserStoreImpl implements UserStore {
 
@@ -17,5 +19,11 @@ public class UserStoreImpl implements UserStore {
 	@Override
 	public boolean validateUser(final String userId, final String password) {
 		return false;
+	}
+
+	@Override
+	public Map<String, Boolean> sendAlertMessagesTo(List<String> phoneNos) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
