@@ -6,6 +6,7 @@ package com.geoweb.store;
 import java.util.Iterator;
 
 import com.geoweb.entities.DeviceLocationInfo;
+import com.geowebcommon.store.DeviceLocationHistoryStore;
 
 /**
  * @author goms

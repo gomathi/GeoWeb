@@ -3,6 +3,7 @@ package com.geoweb.store;
 import java.util.List;
 import java.util.Map;
 
+import com.geowebcommon.store.UserStore;
 
 public class UserStoreImpl implements UserStore {
 
@@ -22,7 +23,8 @@ public class UserStoreImpl implements UserStore {
 	}
 
 	@Override
-	public Map<String, Boolean> sendAlertMessagesTo(List<String> phoneNos) {
+	public Map<String, Boolean> sendAlertMessagesTo(String userId,
+			List<String> phoneNos) {
 		// TODO Auto-generated method stub
 		return null;
 	}
